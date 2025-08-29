@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Highlights from './components/Highlights'
 import Model from './components/Model'
 import Features from './components/Features'
+import HowItWorks from './components/HowItWorks'
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ const App = () => {
       <Highlights />
       {/* <Model /> */}
       <Features />
+      <HowItWorks />
 
     </main>
   )
